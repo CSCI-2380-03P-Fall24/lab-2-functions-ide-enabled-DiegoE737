@@ -45,8 +45,11 @@ void replaceVariable(int list[], int Num, int start, int end) {
 //input: the array of integers and its size
 void printArray(int list[], int size) {
 	
-	
-	return;
+	for (int i = 0; i <= size; i++){
+		cout << list[i] << " ";
+	}
+
+
 }
 
 
