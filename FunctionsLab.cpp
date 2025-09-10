@@ -43,7 +43,9 @@ void replaceVariable(int list[], int Num, int start, int end) {
 //write a function called printArray to print out the elements of the given array
 //output: nothing
 //input: the array of integers and its size
-void printArray() {
+void printArray(int list[], int size) {
+	
+	
 	return;
 }
 
