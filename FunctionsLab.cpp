@@ -68,5 +68,15 @@ void printArray(int list[], int size) {
 
 
 int sumOdds(int array[], int start, int end){
-	return -1;
+	int sum = 0;
+
+	for (int i = start; i < end; i++){
+		if (array[i] % 2 == 1){
+			sum = sum + array[i]; 
+		}
+	}
+
+	//sumOdds(myarray, 1, 3) == 78
+	//sumOdds(myarray, 2, 10) == 96
+	return sum;
 }
